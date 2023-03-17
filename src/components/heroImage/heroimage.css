@@ -1,0 +1,46 @@
+.heroimage {
+    position: relative;
+}
+
+.heroimage img {
+    width: 100vw;
+    height: calc(100vh - 50px);
+}
+
+.heroimage .right_hero_section {
+    position: absolute;
+    top: 40%;
+    left: 51%;
+    color: white;
+    font-family: 'Qalisso';
+
+}
+
+.heroimage .right_hero_section h1 {
+    font-family: 'Qalisso';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    overflow-y: hidden;
+
+}
+
+.heroimage .right_hero_section p {
+
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    margin: 1rem 0;
+}
+
+.heroimage .right_hero_section button {
+    background-color: #C5B5A6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 51px;
+    cursor: pointer;
+}

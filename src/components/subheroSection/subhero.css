@@ -1,0 +1,64 @@
+.subhero {
+    width: 100%;
+    height: 853px;
+    position: relative;
+}
+
+.subhero p {
+    position: absolute;
+    width: 812px;
+    height: 153px;
+    left: 168px;
+    top: 167px;
+
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 160%;
+    /* or 51px */
+
+    letter-spacing: 0.02em;
+
+    color: #737373;
+    overflow-y: hidden;
+}
+
+.subhero p {
+    position: absolute;
+    width: 812px;
+    height: 153px;
+    left: 168px;
+    top: 100px;
+
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 160%;
+    /* or 51px */
+
+    letter-spacing: 0.02em;
+
+    color: #737373;
+    overflow-y: hidden;
+}
+
+.subhero .img1 {
+    position: absolute;
+    width: 488.99px;
+    height: 488.99px;
+    left: -55.44px;
+    top: 277px;
+    transform: rotate(15deg);
+}
+
+.subhero .mchair {
+    position: absolute;
+    width: 437.19px;
+    height: 423.41px;
+    left: 900px;
+    top: 259.25px;
+    transform: rotate(-19.27deg);
+    z-index: 1000;
+}

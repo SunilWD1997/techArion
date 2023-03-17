@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    width: 100vw;
+    padding: 0 3rem;
+    background-color: #EAE9E4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.navbar .left, .right{
+   display: flex;
+   gap: 1.5rem;
+}
+.navbar .left a, .right a{
+   display: flex;
+   gap: 1rem;
+   color: black;
+   font-family: 'Gabriela';
+}
+.navbar img{
+ width: 50px;
+ color: #EAE9E4;;
+}
+
